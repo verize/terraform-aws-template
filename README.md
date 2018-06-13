@@ -35,3 +35,12 @@ terraform apply
 ```
 ssh -i your-pem-file.pem ubuntu@PUBLIC_IP_OUTPUT
 ```
+
+6. Destroy your demo infrastructure after testing
+```
+terraform destroy
+```
+
+### Licensing:
+
+The code in this project is licensed under [MIT LICENSE](LICENSE). Read file for more information.
